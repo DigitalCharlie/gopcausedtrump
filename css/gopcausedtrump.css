@@ -17,7 +17,8 @@
 	}
 
 	p {
-
+		font-size:1em;
+		color:#fff;
 	}
 
 	h1 {
@@ -30,7 +31,8 @@
 	}
 
 	h2 {
-
+		font-size:1.5em;
+		color: #ec476b;
 	}
 
 
@@ -62,7 +64,7 @@
    	.introText.darker {
    		background: rgba(0,0,0,0.5);
    		font-size: 3em;
-   		padding:6em 1em 5em;
+   		padding:6em 1em 6em;
 
    	}
 
@@ -72,15 +74,18 @@
    		padding:1em;
    	}
 
+   	.superbig {
+   		font-size:3em;
+   	}
+
 /* PARALLELOGRAM SHAPES */
 	.stripe {
 	    width: 150px;
-	    height: 25px;
-	    margin: -100px -20px 25px 0;
+	    height: 45px;
+	    margin: 0 -20px 45px 0;
 	    -webkit-transform: skew(-30deg);
 	       -moz-transform: skew(-30deg);
 	         -o-transform: skew(-30deg);
-	    background: #71d4dd;
 	    overflow:hidden;
 	    float:right;
 	    clear:both;
@@ -88,7 +93,22 @@
 
 	.stripe.long {
 		width: 250px;
-		margin-top:-50px;
+	}
+
+	.stripe.above {
+		margin-top:-180px;
+	}
+
+	.stripe.long.above {
+		margin-top:-90px;
+	}
+
+	.stripe.straddling {
+		margin-top:-45px;
+	}
+
+	.stripe.long.straddling {
+		margin-top:0;
 	}
 
 	.clear {
@@ -104,6 +124,19 @@
 
 
 
+/* TIMELINE ITSELF */
+
+	.timeline {
+        background-repeat:no-repeat;
+	    /* Set a specific height */
+	    min-height: 800px;
+	    /* Create the parallax scrolling effect */
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+   	}
+
 /* TIMELINE EVENT */
 
 
@@ -115,13 +148,21 @@
 /* TIMELINE THEME */
 
 	.theme {
-		width:100%;
-		padding:2em 1em;
+		width:86%;
+		padding:2em 7%;
 		display:inline-block;
 	}
 
 	.blue {
 		background-color: #71d4dd;
+	}
+
+	.black {
+		background-color: #1a1a1a;
+	}
+
+	.white {
+		background-color:#fff;
 	}
 
 
@@ -130,6 +171,12 @@
 
 
 /* MODALS */
+
+/* ICONS */
+
+	.iconCircle {
+		width:100px;
+	}
 
 
 
@@ -143,6 +190,14 @@
 			font-size: 3.25em;
 		}
 
+		h2 {
+			font-size:2.5em;
+		}
+
+		p {
+			font-size:1.5em;
+		}
+
 	/* SPLASH SECTION */
 
 		.introText {
@@ -151,13 +206,17 @@
 
 		.introText.darker {
 			font-size:4em;
-			padding:5em 1em 4em;
+			padding:5em 1em 5em;
 
 		}
 
 		.topLogo {
 			width:150px;
 		}
+
+		.superbig {
+	   		font-size:5em;
+	   	}
 
 	/* PARALLELOGRAM SHAPES */
 
