@@ -62,7 +62,7 @@
    	.introText.darker {
    		background: rgba(0,0,0,0.5);
    		font-size: 3em;
-   		padding:6em 1em 8em;
+   		padding:6em 1em 5em;
 
    	}
 
@@ -76,7 +76,7 @@
 	.stripe {
 	    width: 150px;
 	    height: 25px;
-	    margin: 0 -20px 25px 0;
+	    margin: -100px -20px 25px 0;
 	    -webkit-transform: skew(-30deg);
 	       -moz-transform: skew(-30deg);
 	         -o-transform: skew(-30deg);
@@ -88,6 +88,7 @@
 
 	.stripe.long {
 		width: 250px;
+		margin-top:-50px;
 	}
 
 	.clear {
@@ -115,7 +116,7 @@
 
 	.theme {
 		width:100%;
-		padding:1em;
+		padding:2em 1em;
 		display:inline-block;
 	}
 
@@ -135,7 +136,7 @@
 
 
 
-@media screen and (min-width: 845px) {
+@media screen and (min-width: 750px) {
 
 	/* TYPOGRAPHY */
 		h1 {
@@ -150,12 +151,23 @@
 
 		.introText.darker {
 			font-size:4em;
-			padding:5em 1em 6em;
+			padding:5em 1em 4em;
 
 		}
 
 		.topLogo {
 			width:150px;
 		}
+
+	/* PARALLELOGRAM SHAPES */
+
+		.stripe {
+			width:500px;
+		}
+
+		.stripe.long {
+			width:600px;
+		}
+
 
 }
