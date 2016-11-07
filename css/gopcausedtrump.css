@@ -433,6 +433,12 @@
 		width:100px;
 	}
 
+	.memoDot {
+		background-image: url(../images/icons/Document_Timeline.png);
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+
 @media screen and (min-width: 750px) {
 
 	/* TYPOGRAPHY */
