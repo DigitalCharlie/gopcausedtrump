@@ -326,6 +326,36 @@
 
 /* MODALS */
 
+/* BUTTONS */
+
+    button {
+        display: inline-block;
+        background: #ec476b;
+        text-align: center;
+        padding:8px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        border-style: none;
+    }
+
+    button:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .action-button {
+        font-size:18px;
+        margin-bottom:25px;
+        width:100%;
+    }
+
 /* ICONS */
 
 	.iconCircle {
@@ -426,6 +456,15 @@
 		.endText {
 			margin-top:-60px;
 		}
+
+
+	/* BUTTONS */
+
+	    .action-button {
+            width:250px;
+			margin: 0 auto;
+			display:block;
+        }
 
 
 
