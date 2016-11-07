@@ -590,29 +590,45 @@
     }
 
 		.nixonBackground {
-      height: 110vh;
-      margin-top: 25vh;
+      height: 90vh;
+      margin-top: 45vh;
 			background-image: url("../images/NIXONcampaigns.jpg");
+      background-size:100%;
+      background-repeat:no-repeat;
+		}
+
+		.colorblindBackground {
+      height: 100vh;
+      margin-top: 84vh;
+			background-image: url("../images/SupremeCourt.jpg");
       background-size:100%;
       background-repeat:no-repeat;
 		}
 
     .transparentDesktop {
       background-color: rgba(0,0,0,0);
-      padding:400px 0 15px;
-      width:100%;
+      padding:400px 5% 15px;
+      width:90%;
     }
+
 }
 
 @media screen and (min-width: 900px) {
-  .nixonBackground {
-    margin-top: 20vh;
+  .nixonBackground, {
+    margin-top: 34vh;
+  }
+
+  .colorblindBackground {
+  	margin-top: 60vh;
   }
 }
 
 @media screen and (min-width: 1050px) {
   .nixonBackground {
-    margin-top: 0;
+    margin-top: 20vh;
+  }
+   .colorblindBackground {
+  	margin-top: 55vh;
   }
 }
 
