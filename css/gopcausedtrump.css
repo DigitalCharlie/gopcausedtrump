@@ -312,6 +312,7 @@
     background-color: rgba(0,0,0,0);
   }
 
+
 	.noTopPadding {
 		padding-top:0;
 	}
@@ -496,6 +497,10 @@
       background-size:100%;
       background-repeat:no-repeat;
 		}
+
+    .transparentDesktop {
+      background-color: rgba(0,0,0,0);
+    }
 }
 
 @media screen and (min-width: 900px) {
