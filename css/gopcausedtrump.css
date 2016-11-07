@@ -585,6 +585,10 @@
 
     /* THEME BACKGROUNDS */
 
+    .theme h3 {
+    	margin-top:0;
+    }
+
 		.nixonBackground {
       height: 110vh;
       margin-top: 25vh;
@@ -595,7 +599,7 @@
 
     .transparentDesktop {
       background-color: rgba(0,0,0,0);
-      padding:250px 0 75px;
+      padding:400px 0 15px;
       width:100%;
     }
 }
