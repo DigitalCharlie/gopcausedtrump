@@ -36,7 +36,7 @@
 
 	h3 {
 		font-weight:400;
-		font-size:18px;
+		font-size:14px;
 	}
 
 	.noDecoration {
@@ -428,20 +428,20 @@
 
 	/* TYPOGRAPHY */
 		h1 {
-			font-size: 48px;
+			font-size: 44px;
 		}
 
 		h2 {
-			font-size:36px;
+			font-size:32px;
 		}
 
 		p {
-			font-size:18px;
+			font-size:16px;
 		}
 
 		h3 {
 			font-weight:400;
-			font-size:24px;
+			font-size:22px;
 		}
 
 	/* SPLASH SECTION */
@@ -499,7 +499,7 @@
 	    }
 
 	    .headerButton.action-button {
-	        font-size:18px;
+	        font-size:16px;
 	        border-radius:5px;
 	        display:inline-block;
 	        width:250px;
