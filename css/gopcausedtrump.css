@@ -66,20 +66,43 @@
 
 /* SPLASH SECTION */
 
-	.trumpSplash {
-		background-image: url("../images/Trump_Intro_File.jpg");
-        background-size:100%;
-        background-repeat:no-repeat;
-	    /* Set a specific height */
-	    min-height: 800px;
-	    /* Create the parallax scrolling effect */
-	    background-attachment: fixed;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-   	}
+	.parallax {
+    min-height: 100vh;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 
-   	.introText {
+	.trumpBackground {
+    height: 1067px;
+		background-image: url("../images/Trump_Intro_File.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+  }
+
+  .parallax .background {
+    transform: translateZ(-2px) scale(3);
+  }
+
+  .parallax .foreground {
+    transform: translateZ(0px);
+  }
+
+  .parallaxContainer {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+  }
+
+  .parallaxGroup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+   	.introText.top {
    		min-height:100vh;
    	}
 
@@ -87,12 +110,11 @@
    		padding:11rem 1rem 3rem;
    	}
 
-   	.introText.darker {
-   		background: rgba(0,0,0,0.5);
+   	.introText.bottom {
    		font-size: 44px;
    	}
 
-   	.introText.darker h1 {
+   	.introText.bottom h1 {
    		padding:6rem 1rem 6rem;
    	}
 
@@ -113,7 +135,7 @@
 	}
 
 	.stripeContainer.above {
-		margin-top:-180px;
+		margin-top: 0px;
 	}
 
 	.stripeContainer.straddling {
