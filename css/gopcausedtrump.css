@@ -74,7 +74,7 @@
   }
 
 	.trumpBackground {
-    height: 1067px;
+    height: 110vh;
 		background-image: url("../images/Trump_Intro_File.jpg");
     background-size:100%;
     background-repeat:no-repeat;
@@ -330,6 +330,7 @@
 
 	.blue {
 		background-color: #71d4dd;
+    color: #1a1a1a;
 	}
 
 	.black {
@@ -343,6 +344,11 @@
 	.pink {
 		background-color:#ec476b;
 	}
+
+  .transparent {
+    background-color: rgba(0,0,0,0);
+  }
+
 
 	.noTopPadding {
 		padding-top:0;
@@ -419,10 +425,6 @@
 	.iconCircle {
 		width:100px;
 	}
-
-
-
-
 
 @media screen and (min-width: 750px) {
 
@@ -577,12 +579,28 @@
     /* THEME BACKGROUNDS */
 
 		.nixonBackground {
+      height: 110vh;
+      margin-top: 25vh;
 			background-image: url("../images/NIXONcampaigns.jpg");
-		    background-size:100%;
-		    background-repeat:no-repeat;
+      background-size:100%;
+      background-repeat:no-repeat;
 		}
 
-
-
-
+    .transparentDesktop {
+      background-color: rgba(0,0,0,0);
+    }
 }
+
+@media screen and (min-width: 900px) {
+  .nixonBackground {
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .nixonBackground {
+    margin-top: 0;
+  }
+}
+
+
