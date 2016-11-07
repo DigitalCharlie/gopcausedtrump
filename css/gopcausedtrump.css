@@ -10,7 +10,7 @@
 
 	body {
 		font-family: Roboto;
-		background-color: #1a1a1a;
+		background-color: #000000;
 		margin:0;
 		color:#ffffff;
 		text-align:left;
@@ -312,10 +312,12 @@
 
 /* END OF TIMELINE */
 
+	.endText {
+		margin-top:-53px;
+	}
+
 	.bottomFlag {
-		background-image: url("../images/AllOfUs.jpg");
-        background-size:100%;
-        background-repeat:no-repeat;
+		width:100%;
 	}
 
 	.bottom {
@@ -417,6 +419,12 @@
 
 		.quoteRight {
 			float:right;
+		}
+
+	/* END OF TIMELINE */
+
+		.endText {
+			margin-top:-60px;
 		}
 
 
