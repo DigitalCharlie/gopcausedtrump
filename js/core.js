@@ -16,7 +16,7 @@
 		$(".launchActionModal").on('click', function(event){
 			$('.modal').css('display', 'block');
 			setTimeout(function() {
-				$('.overlay').css('opacity', 1);
+				$('.modal').css('opacity', 1);
 			}, 50);
 		})
 
