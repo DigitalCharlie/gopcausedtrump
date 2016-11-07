@@ -10,7 +10,7 @@
 
 	body {
 		font-family: Roboto;
-		background-color: #000000;
+		background-color: #ec476b;
 		margin:0;
 		color:#ffffff;
 		text-align:left;
@@ -324,13 +324,20 @@
 
 	.theme {
 		width:88%;
-		padding:3% 6%;
+		padding:1.5% 6%;
 		display:inline-block;
+	}
+
+	.theme h1 {
+		text-align:center;
+	}
+
+	.transparentDesktop {
+		padding-bottom:0;
 	}
 
 	.blue {
 		background-color: #71d4dd;
-    color: #1a1a1a;
 	}
 
 	.black {
@@ -588,6 +595,8 @@
 
     .transparentDesktop {
       background-color: rgba(0,0,0,0);
+      padding:250px 0 75px;
+      width:100%;
     }
 }
 
