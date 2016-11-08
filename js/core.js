@@ -51,7 +51,7 @@ $(function() {
       setTimeout(function() {
         $('#shareModal').css('opacity', 1);
       }, 50);
-    }, 50000);
+    }, 65000);
   });
 
   $("#closeShare").click(function() {
