@@ -57,12 +57,12 @@ $(function() {
     closeModal('#shareModal');
   });
 
-/* NEED WAY SO WHEN .can_thank_you_wrap IS ADDED TO #can_embed_form, SOMETHING ELSE IS DISPLAYED. */
-  $(document).on('click', 'input[type="submit"]', function(event) {
-    // For if you want to keep the form from actually being submitted
-    // event.preventDefault();
-    console.log(event);
-    console.log($(this));
-  });
+/* THIS IS HOW THE THANK YOU PAGE IS SHOWN */
+
+  $(document).on('can_embed_submitted', function() {
+          $('#actionModalThanks').css('display','block');
+          $('#actionModalPage1').css('display','none');
+          $('#can_thank_you h1').html('Thanks!');
+     });
 
 });
