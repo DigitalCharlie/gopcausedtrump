@@ -363,14 +363,8 @@
 
 	.themeIcon {
 		width:75px;
-		float: left;
-		margin-right: 5px;
-		margin-left: -45px;
-		margin-top: 15px;"
-	}
-
-	.themeText {
-		padding-left:40px;
+		margin: -10px auto;
+		display:block;
 	}
 
 
@@ -793,6 +787,18 @@
     .theme h3 {
     	margin-top:0;
     }
+
+    .themeIcon {
+		float: left;
+		margin-right: 5px;
+		margin-left: -45px;
+		margin-top: 15px;
+		display:inline;
+	}
+
+	.themeText {
+		padding-left:40px;
+	}
 
 		.nixonBackground {
       height: 90vh;
