@@ -67,15 +67,12 @@ $(function() {
       $('#shareModal').css('opacity', 0);
       }, 50);
   });
+});
 
 /* NEED WAY SO WHEN .can_thank_you_wrap IS ADDED TO #can_embed_form, SOMETHING ELSE IS DISPLAYED. */
 
-  $("[name~=commit]").click(function() {
-    console.log("CLICKED");
-    setTimeout(function() {
-      if ($('.can_thank_you_wrap').css('opacity') === '0') {
-        $('#actionModalThanks').css('display','block');
-      }
-    }, 1);
+$(document).ready (function () {
+  $('input[type="submit"][value="Add Your Name"]').on('click', function() {
+    alert("Submit button clicked!");
   });
 });
