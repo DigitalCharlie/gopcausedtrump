@@ -1,7 +1,7 @@
 /* SCROLL WORKING */
 
-	$(window).scroll(function() {    
-	    var scroll = $(window).scrollTop();
+	$('.parallax').scroll(function() {    
+	    var scroll = $('.parallax').scrollTop();
 	    if (scroll >= 500) {
 	        $(".clearHeader").addClass("darkHeader");
 	        console.log("SCROLLED!");
