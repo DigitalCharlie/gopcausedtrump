@@ -361,6 +361,18 @@
 		padding-top:0;
 	}
 
+	.themeIcon {
+		width:75px;
+		float: left;
+		margin-right: 5px;
+		margin-left: -45px;
+		margin-top: 15px;"
+	}
+
+	.themeText {
+		padding-left:40px;
+	}
+
 
 /* TIMELINE BORDERS */
 
