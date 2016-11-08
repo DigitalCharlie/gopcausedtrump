@@ -76,8 +76,9 @@
 	.trumpBackground {
 	    height: 110vh;
 		background-image: url("../images/Trump_Intro_File.jpg");
-	    background-size:100%;
+	    background-size:225%;
 	    background-repeat:no-repeat;
+	    background-position-x:50%;
 	  }
 
   .parallax .background {
@@ -107,7 +108,7 @@
    	}
 
    	.introText h1 {
-   		padding:11rem 1rem 3rem;
+   		padding:21rem 1rem 3rem;
    	}
 
    	.introText.bottom {
@@ -730,11 +731,18 @@
       width:90%;
     }
 
+    .trumpBackground {
+	    height: 110vh;
+	    background-size:100%;
+	   	background-position-x:auto;
+
+	}
+
 }
 
 @media screen and (min-width: 900px) {
   .nixonBackground, {
-    margin-top: 34vh;
+    margin-top: 30vh;
   }
 
   .colorblindBackground {
