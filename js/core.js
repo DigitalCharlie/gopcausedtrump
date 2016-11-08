@@ -72,7 +72,7 @@ $(function() {
 /* NEED WAY SO WHEN .can_thank_you_wrap IS ADDED TO #can_embed_form, SOMETHING ELSE IS DISPLAYED. */
 
 $(document).ready (function () {
-  $('input[type="submit"][value="Add Your Name"]').on('click', function() {
+  $('input[type="submit"]').on('click', function() {
     alert("Submit button clicked!");
   });
 });
