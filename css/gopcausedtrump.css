@@ -397,7 +397,7 @@
 /* MODALS */
 
     .modal {
-        height: 97.5%;
+        height: 96%;
         width: 95%;
         position: fixed;
         z-index: 2;
@@ -418,11 +418,11 @@
         position: relative;
         width: 100%;
         height: 100%;
-        text-align: center;
         background-color:#ffffff;
         border-radius:10px;
         z-index: 4;
         color:#1a1a1a;
+        text-align: center;
     }
 
     .modalPage {
@@ -465,7 +465,6 @@
 
     .action-button {
         font-size:20px;
-        margin-bottom:25px;
         width:100%;
     }
 
@@ -483,7 +482,7 @@
 
 /* DIE, ACTION NETWORK STYLES! DIEEEEEEEEE */
 
-#can_embed_form_inner h2, h4, #logo_wrap, #action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap {
+#can_embed_form_inner h2, h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap {
 	display:none;
 }
 
@@ -491,6 +490,52 @@
 	opacity:0;
 	height:0;
 }
+
+#form-first_name, #form-last_name, #form-email, #form-zip_code {
+    border:1px solid #1a1a1a;
+    padding:0;
+    margin-top:5px;
+    height: 40px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family:roboto;
+    width: 100%;
+    color:black;
+    padding:0 0 0 2%;
+    box-sizing: border-box;
+    background: #fff;
+    cursor: text;
+}
+#form-first_name:focus, #form-last_name:focus, #form-email:focus, #form-zip_code:focus {
+    box-shadow: 0 0 10px #71d4dd;
+    outline-color:#71d4dd;
+}
+
+.error_input {
+	border:1px solid red !important;
+}
+
+.error_input:focus {
+	outline-color:red !important;
+	box-shadow: 0 0 10px red !important;
+}
+
+[name~=commit] {
+	width:100%;
+	text-align:center;
+	background-color: #71d4dd;
+	height:40px;
+	margin-top:5px;
+	border:none;
+	font-family:roboto;
+	color:#fff;
+	font-weight:900;
+	border-radius:5px;
+	font-size:18px;
+	cursor:pointer;
+}
+
 
 @media screen and (min-width: 750px) {
 
@@ -649,7 +694,7 @@
             height: 500px;
             max-height:90vh;
             margin:-250px auto;
-            top:40%;
+            top:48%;
         }
 
         .modalContainer h1 {

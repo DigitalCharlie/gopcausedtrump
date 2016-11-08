@@ -14,16 +14,32 @@
 
 	$(function() {
 		$(".launchActionModal").on('click', function(event){
-			$('.modal').css('display', 'block');
+			$('#actionModal').css('display', 'block');
 			setTimeout(function() {
-				$('.modal').css('opacity', 1);
+				$('#actionModal').css('opacity', 1);
 			}, 50);
 		})
 
 		$("#the-x").click(function() {
-		    $('.modal').css('display', 'none');
+		    $('#actionModal').css('display', 'none');
 		    setTimeout(function() {
-		    $('.modal').css('opacity', 0);
+		    $('#actionModal').css('opacity', 0);
+		    }, 50);
+		});
+	});
+
+	$(function() {
+		$(".launchDisclaimerModal").on('click', function(event){
+			$('#disclaimerModal').css('display', 'block');
+			setTimeout(function() {
+				$('#disclaimerModal').css('opacity', 1);
+			}, 50);
+		})
+
+		$("#closeDisclaimer").click(function() {
+		    $('#disclaimerModal').css('display', 'none');
+		    setTimeout(function() {
+		    $('#disclaimerModal').css('opacity', 0);
 		    }, 50);
 		});
 	});
@@ -33,7 +49,7 @@
 /* NEED WAY SO WHEN .can_thank_you_wrap IS ADDED TO #can_embed_form, SOMETHING ELSE IS DISPLAYED. */
 
 	$(function() {
-		$("[name~='commit']").click(function() {
+		$("[name~=commit]").click(function() {
 			console.log("CLICKED");
 			setTimeout(function() {
 				if ($('.can_thank_you_wrap').css('opacity') === '0') {
