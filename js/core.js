@@ -3,12 +3,10 @@ $(function() {
 /* SCROLL WORKING */
 	$('.parallax').scroll(function() {    
     var scroll = $('.parallax').scrollTop();
-    if (scroll >= 500) {
-        $(".clearHeader").addClass("darkHeader");
-        console.log("SCROLLED!");
+    if (scroll >= 1425) {
+        $(".header").css('height', '60px');
     } else {
-        $(".clearHeader").removeClass("darkHeader");
-    }
+        $(".header").css('height', '0');    }
 	});
 
 /* MODAL */
@@ -37,6 +35,22 @@ $(function() {
       $('#disclaimerModal').css('display', 'none');
       setTimeout(function() {
       $('#disclaimerModal').css('opacity', 0);
+      }, 50);
+  });
+
+  $(document).ready(function(){
+    setTimeout(function(){
+      $('#shareModal').css('display', 'block');
+      setTimeout(function() {
+        $('#shareModal').css('opacity', 1);
+      }, 50);
+    }, 40000);
+  });
+
+  $("#closeShare").click(function() {
+      $('#shareModal').css('display', 'none');
+      setTimeout(function() {
+      $('#shareModal').css('opacity', 0);
       }, 50);
   });
 

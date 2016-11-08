@@ -175,27 +175,27 @@
 
 /* HEADER ACTION BAR */
 
-	.clearHeader {
+	.header {
         background-color: #1a1a1a;
         position:fixed;
         width:100%;
         z-index: 1;
         height:0;
-        display: none;
+        overflow:hidden;
+        display: block;
+	    -webkit-transition: height 0.3s;
+	    -moz-transition: height 0.3s;
+	    -ms-transition: height 0.3s;
+	    -o-transition: height 0.3s;
+	    transition: height 0.3s;
     }
 
-    .clearHeader p {
+    .header p {
     	display:block;
     	font-weight:900;
     	text-align:center;
     	padding:0 1%;
-    	margin:10px 0;
-    }
-
-    .darkHeader {
-    	height:60px;
-    	transition-duration: 1s;
-    	display: block;
+    	margin:6px 0;
     }
 
     .headerButton.action-button {
@@ -391,8 +391,8 @@
 		width:100%;
 	}
 
-	.bottom {
-
+	.bottom.black {
+		background-color:#000000;
 	}
 
 /* MODALS */
@@ -447,7 +447,7 @@
         background: #ec476b;
         text-align: center;
         padding:8px 20px;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -467,6 +467,29 @@
     .action-button {
         font-size:20px;
         width:100%;
+    }
+
+    .facebook {
+        background: #3b5998;
+    }
+    
+    .twitter {
+        background: #1DA1F2;
+    }
+    
+    .email {
+        background: rgb(50, 177, 34);
+    }
+
+    .share-button {
+        width: 100%;
+        margin-bottom:5px;
+    }
+
+    .share-button:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
     }
 
 /* ICONS */
@@ -537,6 +560,15 @@
 	cursor:pointer;
 }
 
+.formIcon {
+	width:100px;
+	margin:0 auto;
+}
+
+.formIcon.share {
+	margin-top:10px;
+}
+
 
 @media screen and (min-width: 750px) {
 
@@ -590,22 +622,18 @@
 
 	/* HEADER */
 
-		.clearHeader {
+		.header {
 	        padding:0;
 	    }
 
-	    .clearHeader p {
+	    .header p {
 	    	display:inline-block;
 	    	margin-right:15px;
 	    }
 
-	    .darkHeader {
-	    	height:60px;
-	    }
-
 	    .headerContent {
 	    	width:720px;
-	    	margin:8px auto;
+	    	margin:12px auto;
 	    }
 
 	    .clearHeader .action-button {
@@ -617,25 +645,6 @@
 	        border-radius:5px;
 	        display:inline-block;
 	        width:250px;
-	    }
-
-	    .headerFB, .headerTW{
-	        padding:3px 5px 0 5px;
-	        display:inline-block;
-	    }
-
-	    .headerFB a {
-	        background: url(images/facebook-icon.png);
-	        background-size:100%;
-	        width:23px;
-	        height: 23px;
-	    }
-
-	    .headerTW a {
-	        background: url(images/twitter-icon.png);
-	        background-size:100%;
-	        width:23px;
-	        height: 23px;
 	    }
 
 
@@ -702,6 +711,15 @@
             margin:0 auto 10px;
             width:500px;
         }
+
+        .formIcon {
+			width:75px;
+			margin:-5px auto;
+		}
+
+		.formIcon.share {
+			margin-top:5px;
+		}
 
     /* THEME BACKGROUNDS */
 
