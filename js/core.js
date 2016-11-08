@@ -38,6 +38,13 @@ $(function() {
       }, 50);
   });
 
+  $("#disclaimerX").click(function() {
+      $('#disclaimerModal').css('display', 'none');
+      setTimeout(function() {
+      $('#disclaimerModal').css('opacity', 0);
+      }, 50);
+  });
+
   $(document).ready(function(){
     setTimeout(function(){
       $('#shareModal').css('display', 'block');
@@ -48,6 +55,13 @@ $(function() {
   });
 
   $("#closeShare").click(function() {
+      $('#shareModal').css('display', 'none');
+      setTimeout(function() {
+      $('#shareModal').css('opacity', 0);
+      }, 50);
+  });
+
+    $("#shareX").click(function() {
       $('#shareModal').css('display', 'none');
       setTimeout(function() {
       $('#shareModal').css('opacity', 0);
