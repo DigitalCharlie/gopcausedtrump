@@ -464,6 +464,28 @@
         -webkit-transition-duration: .5s;
     }
 
+    .btn {
+        display: inline-block;
+        background: #ec476b;
+        text-align: center;
+        padding:8px 0;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        border-style: none;
+    }
+
+    .btn:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
     .action-button {
         font-size:20px;
         width:100%;
@@ -490,6 +512,10 @@
         background: #ec476b;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
+    }
+
+    .shareButtons {
+    	width:100%;
     }
 
 /* ICONS */

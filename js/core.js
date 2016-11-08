@@ -50,11 +50,11 @@ $(function() {
   }, 65000);
 
   $("#closeShare").click(function() {
-    closeModal('#shareModal');
+    hideModal('#shareModal');
   });
 
   $("#shareX").click(function() {
-    closeModal('#shareModal');
+    hideModal('#shareModal');
   });
 
 /* THIS IS HOW THE THANK YOU PAGE IS SHOWN */
