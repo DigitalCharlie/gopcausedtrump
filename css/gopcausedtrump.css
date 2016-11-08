@@ -389,6 +389,7 @@
 
 	.bottomFlag {
 		width:100%;
+		position:relative;
 	}
 
 	.bottom.black {
@@ -518,6 +519,33 @@
     	width:100%;
     }
 
+    .finalButton {
+    	width:100%;
+    	background-color:#1a1a1a;
+    	height:45px; 
+    	font-style:italic;
+    }
+
+    .finalButton:hover {
+		opacity: .8;
+		background-color:#1a1a1a;
+		transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .finalButtons {
+    	top:55%;
+    	width:40%;
+    	min-width:175px;
+		margin-left:30%;
+    	margin-right:30%;
+    	position:absolute;
+    }
+
+    .finalAction {
+    	margin-bottom:10px;
+    }
+
 /* ICONS */
 
 	.iconCircle {
@@ -525,7 +553,7 @@
 	}
 
 	.memoDot {
-		background-image: url(../images/icons/Document_Timeline.png);
+		background: url(../images/icons/Document_Timeline.png);
 		background-size:100%;
 		background-repeat: no-repeat;
 	}
@@ -781,6 +809,10 @@
 	    background-size:100%;
 	   	background-position-x:auto;
 
+	}
+
+	.finalButton {
+		height:55px;
 	}
 
 }

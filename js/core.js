@@ -3,7 +3,7 @@ $(function() {
 /* SCROLL WORKING */
   $('.parallax').scroll(function() {    
     var scroll = $('.parallax').scrollTop();
-    if (scroll >= 1425) {
+    if ((scroll >= 1425) && (scroll < 8000))  {
       $(".header").css('height', '60px');
     } else {
       $(".header").css('height', '0');    
@@ -48,6 +48,10 @@ $(function() {
   setTimeout(function(){
     showModal('#shareModal');
   }, 65000);
+
+  $(".launchShareModal").on('click', function(event){
+    showModal('#shareModal');
+  });
 
   $("#closeShare").click(function() {
     hideModal('#shareModal');
