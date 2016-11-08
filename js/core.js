@@ -28,3 +28,17 @@
 		});
 	});
 
+
+
+/* NEED WAY SO WHEN .can_thank_you_wrap IS ADDED TO #can_embed_form, SOMETHING ELSE IS DISPLAYED. */
+
+	$(function() {
+		$("[name~='commit']").click(function() {
+			console.log("CLICKED");
+			setTimeout(function() {
+				if ($('.can_thank_you_wrap').css('opacity') === '0') {
+					$('#actionModalThanks').css('display','block');
+				}
+			}, 1);
+		});
+	});

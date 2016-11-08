@@ -67,18 +67,18 @@
 /* SPLASH SECTION */
 
 	.parallax {
-    min-height: 100vh;
-    perspective: 1px;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+		min-height: 100vh;
+		perspective: 1px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
 
 	.trumpBackground {
-    height: 110vh;
+	    height: 110vh;
 		background-image: url("../images/Trump_Intro_File.jpg");
-    background-size:100%;
-    background-repeat:no-repeat;
-  }
+	    background-size:100%;
+	    background-repeat:no-repeat;
+	  }
 
   .parallax .background {
     transform: translateZ(-2px) scale(3);
@@ -422,6 +422,7 @@
         background-color:#ffffff;
         border-radius:10px;
         z-index: 4;
+        color:#1a1a1a;
     }
 
     .modalPage {
@@ -479,6 +480,17 @@
 		background-size:100%;
 		background-repeat: no-repeat;
 	}
+
+/* DIE, ACTION NETWORK STYLES! DIEEEEEEEEE */
+
+#can_embed_form_inner h2, h4, #logo_wrap, #action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap {
+	display:none;
+}
+
+.can_thank_you_wrap {
+	opacity:0;
+	height:0;
+}
 
 @media screen and (min-width: 750px) {
 
