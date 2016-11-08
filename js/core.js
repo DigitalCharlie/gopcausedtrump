@@ -1,13 +1,13 @@
 $(function() {
 
 /* SCROLL WORKING */
-	$('.parallax').scroll(function() {    
+  $('.parallax').scroll(function() {    
     var scroll = $('.parallax').scrollTop();
     if (scroll >= 1425) {
         $(".header").css('height', '60px');
     } else {
         $(".header").css('height', '0');    }
-	});
+  });
 
 /* MODAL */
   $(".launchActionModal").on('click', function(event){
