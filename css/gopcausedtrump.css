@@ -57,6 +57,14 @@
 		color:#ec476b;
 	}
 
+	.whiteText {
+		color:#fff;
+	}
+
+	.blackText {
+		color:#000000;
+	}
+
 
 
 
@@ -601,7 +609,7 @@
 
 /* DIE, ACTION NETWORK STYLES! DIEEEEEEEEE */
 
-#can_embed_form_inner h2, h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap {
+#can_embed_form_inner h2, h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments {
 	display:none;
 }
 
@@ -663,6 +671,12 @@
 .formIcon.share {
 	margin-top:10px;
 }
+
+#can_embed_form_inner h3 {
+	display:none;
+}
+
+
 
 
 @media screen and (min-width: 750px) {
