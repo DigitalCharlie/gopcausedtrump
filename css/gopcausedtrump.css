@@ -49,6 +49,12 @@
 		color:#ec476b;
 	}
 
+	.noDecorationBlack {
+		text-decoration: none;
+		color:#000000;
+
+	}
+
 	.blueText {
 		color:#71d4dd;
 	}
