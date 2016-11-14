@@ -887,7 +887,7 @@
 
 			.nixonBackground {
       height: 90vh;
-      margin-top: 45vh;
+      margin-top: 105vh;
 			background-image: url("../images/NIXONcampaigns.jpg");
       background-size:100%;
       background-repeat:no-repeat;
@@ -895,7 +895,7 @@
 
 		.colorblindBackground {
       height: 100vh;
-      margin-top: 84vh;
+      margin-top: 217vh;
 			background-image: url("../images/SupremeCourt.jpg");
       background-size:100%;
       background-repeat:no-repeat;
@@ -913,27 +913,27 @@
 
 @media screen and (min-width: 900px) {
   .nixonBackground {
-    margin-top: 30vh;
+    margin-top: 106vh;
   }
 
   .colorblindBackground {
-  	margin-top: 60vh;
+  	margin-top: 191vh;
   }
 
   .massincarcerationBackgorund {
-  	margin-top:100vh;
+  	margin-top:177vh;
   }
 }
 
 @media screen and (min-width: 1050px) {
   .nixonBackground {
-    margin-top: 20vh;
+    margin-top: 56vh;
   }
    .colorblindBackground {
-  	margin-top: 55vh;
+  	margin-top: 135vh;
   }
-    .massincarcerationBackgorund {
-  	margin-top:100vh;
+    .massincarcerationBackground {
+  	margin-top:85vh;
   }
 }
 
