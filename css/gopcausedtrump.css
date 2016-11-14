@@ -147,6 +147,10 @@
    		font-size:56px;
    	}
 
+   	.overview a {
+   		color:#71d4dd;
+   	}
+
 /* PARALLELOGRAM SHAPES */
 	.stripeContainer {
 		overflow:hidden;

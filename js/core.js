@@ -49,6 +49,10 @@ $(function() {
     showModal('#shareModal');
   }, 65000);
 
+  setTimeout(function(){
+    showModal('#shareModal');
+  }, 260000);
+
   $(".launchShareModal").on('click', function(event){
     showModal('#shareModal');
   });
