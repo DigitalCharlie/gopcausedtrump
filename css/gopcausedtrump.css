@@ -937,4 +937,16 @@
   }
 }
 
+@media screen and (min-width: 1350px) {
+  .nixonBackground {
+    margin-top: 32vh;
+  }
+   .colorblindBackground {
+  	margin-top: 74vh;
+  }
+    .massincarcerationBackground {
+  	margin-top:30vh;
+  }
+}
+
 
