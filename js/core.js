@@ -3,7 +3,7 @@ $(function() {
 /* SCROLL WORKING */
   $('.parallax').scroll(function() {    
     var scroll = $('.parallax').scrollTop();
-    if ((scroll >= 1425) && (scroll < 18640))  {
+    if (scroll >= 1425){
       $(".header").css('height', '60px');
     } else {
       $(".header").css('height', '0');    
