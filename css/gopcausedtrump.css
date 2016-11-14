@@ -24,7 +24,7 @@
 	h1 {
 		font-style: italic;
 		font-weight:900;
-		font-size: 30px;
+		font-size: 26px;
 		text-transform: uppercase;
 		margin:0;
 	}
@@ -253,7 +253,7 @@
 	}
 
 	.event h1 {
-		line-height:34px;
+		line-height:30px;
 		padding-right:20px;
 	}
 
@@ -805,6 +805,10 @@
 
 		.quoteRight {
 			float:right;
+		}
+
+		.videoContainer {
+			min-width:500px;
 		}
 
 	/* END OF TIMELINE */
